@@ -1,1 +1,32 @@
-node_modules
+# Laravel specific
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+.env
+.env.backup
+Homestead.yaml
+Homestead.json
+
+# Laravel IDE Helper
+.phpstorm.meta.php
+_ide_helper.php
+_ide_helper_models.php
+
+# System files
+.DS_Store
+Thumbs.db
+.idea
+.vscode
+
+# Log files
+*.log
+
+# Cache & compiled files
+bootstrap/cache/
+storage/framework/
+storage/logs/
+
+# Composer
+composer.lock
+
