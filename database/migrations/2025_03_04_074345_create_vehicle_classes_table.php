@@ -10,7 +10,7 @@ class CreateVehicleClassesTable extends Migration
     {
         Schema::create('vehicle_classes', function (Blueprint $table) {
             $table->id(); // Creates an auto-incrementing 'id' column
-            $table->string('name'); // Creates a 'name' column
+            $table->string('name'); // luxury, business, economy
             $table->timestamps(); // Adds 'created_at' and 'updated_at' columns
         });
     }

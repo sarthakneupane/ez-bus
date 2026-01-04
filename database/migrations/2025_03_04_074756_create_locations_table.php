@@ -10,7 +10,7 @@ class CreateLocationsTable extends Migration
     {
         Schema::create('locations', function (Blueprint $table) {
             $table->id(); // Creates an auto-incrementing 'id' column
-            $table->string('name'); // Creates a 'name' column
+            $table->string('name'); // Cities of biratnagar
             $table->timestamps(); // Adds 'created_at' and 'updated_at' columns
             $table->softDeletes(); // Adds 'deleted_at' column for soft deletes
         });
